@@ -1,5 +1,9 @@
 header{
-  background-color: rgb(230, 36, 36);
+  background-color: black;
   
 }
 
+.imagenlogo{
+  width: 100px;
+  height: 50px;
+}

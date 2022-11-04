@@ -1,5 +1,5 @@
 import { FaOpencart } from 'react-icons/fa';
-
+import Logo from './Logo';
 
 const NavBar = () =>{
     return(
@@ -8,7 +8,7 @@ const NavBar = () =>{
       
       <nav className="navbar navbar-expand-lg shadow navbar-dark py-3 ">
             <div className="container-fluid">
-            <h1>Cherry Drinks </h1>
+            <Logo />
             <button 
                 class="navbar-toggler" 
                 type="button" 
