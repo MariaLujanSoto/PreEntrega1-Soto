@@ -10,18 +10,16 @@ const NavBar = () =>{
             <div className="container-fluid">
             <Logo />
             <button 
-                class="navbar-toggler" 
+                className="navbar-toggler" 
                 type="button" 
                 data-bs-toggle="collapse" 
                 data-bs-target="#navMenu" 
                 >
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto mb-2 ml-lg-0">
-                    <li className="nav-item ">
-                        <a className="nav-link active" aria-current="page" href="index.html"></a>
-                    </li>
+            <div className="collapse navbar-collapse" id="navMenu">
+            <ul className="navbar-nav ms-auto mb-2 ml-lg-0">
+                    
                     <li className="nav-item">
                         <a className="nav-link" href="servicios.html">Espumantes</a>
                     </li>

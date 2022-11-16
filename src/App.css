@@ -1,9 +1,72 @@
 header{
   background-color: black;
-  
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
 }
+
 
 .imagenlogo{
   width: 100px;
   height: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  color: #111;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.contenedor-items{
+  display: flex;
+  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+
+.video-container {
+  width: 400px;
+  height: 350px;
+  display: flex;
+  overflow: hidden;
+  padding: 25px 15px;
+  border :black 2px solid;
+  border-radius: 100px ;
+  text-decoration: none;
+  align-items: baseline;
+}
+
+.video-image {
+  margin: 0 20px 0 10px;
+  
+}
+
+.video-info {
+  width: 80%;
+  height: 100px;
+}
+
+.video-info h3 {
+  font-weight: 600;
+  margin: 0;
+}
+
+.video-info h4 {
+  font-weight: 500;
+}
+
+.video-info p {
+  color:black;
 }
