@@ -42,7 +42,7 @@ body {
   display: flex;
   overflow: hidden;
   padding: 25px 15px;
-  border :black 2px solid;
+  border :black 10px solid;
   border-radius: 100px ;
   text-decoration: none;
   align-items: baseline;
